@@ -56,9 +56,9 @@ claude-architect-foundations-es/
 │   ├── GLOSARIO_D1_D5.md
 │   └── INDICE.md
 ├── scripts/                 # Utilidades de pruebas y trabajo local
-├── .env.example             # Plantilla de variables de entorno
-├── config.example.py        # Ejemplo de configuración Python
-├── requirements-study.txt   # Dependencias compartidas
+├── .env             # Plantilla de variables de entorno
+├── config.py        # Configuración Python
+├── requirements.txt   # Dependencias compartidas
 ├── .gitignore
 └── README.md
 ```
@@ -78,7 +78,7 @@ cd claude-architect-foundations-es
 python -m venv .venv
 source .venv/Scripts/activate
 
-python -m pip install -r requirements-study.txt
+python -m pip install -r requirements.txt
 ```
 
 Para las prácticas que utilicen la API, crea un archivo `.env` a partir de la plantilla y configura allí tu clave:
