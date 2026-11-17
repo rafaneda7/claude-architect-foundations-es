@@ -2,9 +2,7 @@
 
 **Ruta de preparación práctica en español para la certificación Claude Certified Architect – Foundations.** El repositorio reúne fundamentos de arquitectura agéntica, ejercicios en Python, integración de herramientas y MCP, flujos con Claude Code, técnicas de prompting, gestión de contexto, pruebas y simulacros.
 
-**Repositorio:** [rafaneda7/claude-architect-foundations-es](https://github.com/rafaneda7/claude-architect-foundations-es)
-
-Este es un proyecto educativo independiente, sin afiliación ni aval de Anthropic. Sus ejercicios, preguntas y simulacros son materiales de estudio propios, no contenido oficial del examen.
+> Proyecto educativo independiente, **no afiliado ni avalado por Anthropic**. Las preguntas y los casos prácticos son propios, no pertenecen a ningún examen oficial. Las características de la API y del examen pueden cambiar; verifica la [documentación de Anthropic](https://platform.claude.com/docs/en/home) y la guía de certificación antes de presentarte.
 
 ## Objetivo y metodología
 
@@ -56,9 +54,9 @@ claude-architect-foundations-es/
 │   ├── GLOSARIO_D1_D5.md
 │   └── INDICE.md
 ├── scripts/                 # Utilidades de pruebas y trabajo local
-├── .env             # Plantilla de variables de entorno
-├── config.py        # Configuración Python
-├── requirements.txt   # Dependencias compartidas
+├── .env                     # Plantilla de variables de entorno
+├── config.py                # Configuración Python
+├── requirements.txt         # Dependencias compartidas
 ├── .gitignore
 └── README.md
 ```
@@ -85,12 +83,6 @@ Para las prácticas que utilicen la API, crea un archivo `.env` a partir de la p
 
 ```bash
 cp .env.example .env
-```
-
-Si una práctica utiliza un archivo `config.py` local, puedes partir de `config.example.py` sin sobrescribir una configuración existente:
-
-```bash
-test -f config.py || cp config.example.py config.py
 ```
 
 Selecciona el intérprete de `.venv` como kernel de los notebooks en VS Code. Revisa las dependencias específicas de cada jornada cuando su guía las indique.
